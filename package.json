@@ -1,0 +1,25 @@
+{
+  "name": "docusaurus-serve-static",
+  "version": "1.0.0",
+  "description": "Serve Docusaurus production builds respecting custom baseUrl values",
+  "main": "./bin/docusaurus-serve-static.js",
+  "bin": {
+    "docusaurus-serve-static": "./bin/docusaurus-serve-static.js"
+  },
+  "type": "commonjs",
+  "keywords": [
+    "docusaurus",
+    "static",
+    "serve",
+    "baseUrl",
+    "docs",
+    "cli"
+  ],
+  "author": "Samrat Pulluri",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "11.0.0",
+    "express": "4.21.2",
+    "open-cli": "8.0.0"
+  }
+}
