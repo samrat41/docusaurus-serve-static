@@ -47,7 +47,5 @@ app.get(`${baseUrl}*`, (req, res) => {
 
 app.listen(PORT, () => {
   const fullUrl = `http://localhost:${PORT}${baseUrl}`;
-  console.log(`✅ Serving '${BUILD_DIR}'`);
-  console.log(`🌐 URL: ${fullUrl}`);
   exec(`open-cli "${fullUrl}"`);
 });
