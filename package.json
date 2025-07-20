@@ -1,7 +1,7 @@
 {
   "name": "docusaurus-serve-static",
   "version": "1.0.0",
-  "description": "Serve Docusaurus production builds respecting custom baseUrl values",
+  "description": "A CLI tool to statically serve Docusaurus production builds with custom baseUrl support.",
   "main": "./bin/docusaurus-serve-static.js",
   "bin": {
     "docusaurus-serve-static": "./bin/docusaurus-serve-static.js"
@@ -17,6 +17,14 @@
   ],
   "author": "Samrat Pulluri",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samrat41/docusaurus-serve-static"
+  },
+  "bugs": {
+    "url": "https://github.com/samrat41/docusaurus-serve-static/issues"
+  },
+  "homepage": "https://github.com/samrat41/docusaurus-serve-static/blob/main/README.md",
   "dependencies": {
     "commander": "11.0.0",
     "express": "4.21.2",
