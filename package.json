@@ -1,6 +1,6 @@
 {
   "name": "docusaurus-serve-static",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool to statically serve Docusaurus production builds with custom baseUrl support.",
   "main": "./bin/docusaurus-serve-static.js",
   "bin": {
