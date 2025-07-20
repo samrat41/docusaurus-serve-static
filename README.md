@@ -40,6 +40,9 @@ npx docusaurus-serve-static -d build -p 4000 -b /test/
 ## License
 MIT
 
+## Contributing
+Contributions are welcome! Please fork the repository and submit pull requests to the `develop` branch. Make sure your changes are well-tested and documented.
+
 ## Author's Note
 Created and maintained by Samrat Pulluri.
 
